@@ -19,7 +19,7 @@ export default function Navbar() {
           </IconButton>
         </div>
         <div className="">
-          <Avatar sx={{ bgcolor: "white" }}>S</Avatar>
+          <Avatar sx={{ bgcolor: "white", color: pink.A400 }}>S</Avatar>
         </div>
         <div>
           <IconButton>
