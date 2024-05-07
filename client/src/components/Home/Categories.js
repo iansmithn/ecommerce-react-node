@@ -1,4 +1,4 @@
-const categories = [
+export const categories = [
   {
     image:
       "https://cdn.pixabay.com/photo/2021/02/03/21/17/sneakers-5979353_1280.jpg",

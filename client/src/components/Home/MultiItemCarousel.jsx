@@ -6,9 +6,18 @@ import { categories } from "./Categories";
 import CarouselItem from "./CarouselItem";
 
 const MultiItemCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4.5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
   return (
     <div>
-      <Slider>
+      <Slider {...settings}>
         {categories.map((item) => (
           <CarouselItem image={item.image} title={item.title} />
         ))}

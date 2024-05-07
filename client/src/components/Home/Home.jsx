@@ -17,8 +17,15 @@ const Home = () => {
         </div>
         <div className="fadeout"></div>
       </section>
-      <section>
+      <section className="p-10 lg:py-10 lg:px-20">
+        <p className="text-2xl font-semibold text-gray-400 py-3 pb-10">
+          Categories
+        </p>
         <MultiItemCarousel />
+      </section>
+      <section className="px-5 lg:px-20">
+        <h1 className="text-2xl font-semibold text-gray-400 py-3">Shops</h1>
+        <div></div>
       </section>
     </>
   );
